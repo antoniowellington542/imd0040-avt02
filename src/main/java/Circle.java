@@ -7,13 +7,13 @@ class Circle {
     }
 
     double area(){
-        double result = 3.14 * Math.pow(radius, 2);
-        return  result;
+        double areaValue = 3.14 * Math.pow(radius, 2);
+        return  areaValue;
     }
 
     double circumference(){
-        double r = 3.11;
-        return r;
+        double circumferenceValue = 2 * radius;
+        return circumferenceValue;
     }
 
 }
